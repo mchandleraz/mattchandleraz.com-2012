@@ -278,6 +278,7 @@ body {
 		background: $mcaz_green;
 		font-family: $sans;
 		color: $mcaz_gray;
+		min-height: 960px;
 
 	}
 
@@ -319,6 +320,7 @@ body {
 	.content {
 
 	margin: 1em .25em;
+	min-height: 35em;
 
 	}
 
@@ -561,6 +563,7 @@ body {
 		position: fixed;
 		bottom: 0;
 		left: 0;
+		border-top: 1px solid white;
 
 		a {
 
