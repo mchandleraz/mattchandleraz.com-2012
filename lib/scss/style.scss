@@ -1,0 +1,593 @@
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2,
+h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details,
+figcaption, figure, footer, header, hgroup, menu, nav,
+section, summary, time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+
+    display: block;
+
+}
+
+body {
+
+    line-height: 1;
+
+}
+
+ol, ul {
+
+    list-style: none;
+
+}
+
+blockquote, q {
+
+    quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+
+    content: '';
+    content: none;
+
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+
+    text-decoration: none;
+
+}
+
+del {
+
+    text-decoration: line-through;
+
+}
+
+table {
+
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+
+/* BASE (MOBILE) SIZE */
+
+$mcaz_yellow: 	#ffbd2f;
+$mcaz_gray:		#dbd0d0;
+$mcaz_blue:		#52bece;
+$mcaz_green:	#1b383e;
+$sans:			'din-lightalternate', sans-serif;
+
+/* Globals */
+
+h1, .h1 {
+	
+	font-size: 3em;
+	font-family: 'daxcompact-light', sans-serif;
+
+}
+
+h2, .h2 {
+
+	font-family: 'daxcompact-extrabold', sans-serif;
+
+}
+
+h3, .h3 {
+
+	font-size: 2em;
+	color: $mcaz_yellow;
+
+}
+
+h4, .h4 {
+
+	font-size: 1.5em;
+	color: $mcaz_yellow;
+	line-height: 1.5;
+
+}
+
+h5, .h5 {
+	
+	font-size: 1.2em;
+	color: $mcaz_yellow;
+	line-height: 1.5;
+
+}
+
+h6, .h6 {
+	
+	font-size: 1em;
+	color: $mcaz_yellow;
+	line-height: 1.2;
+
+}
+
+p, .p {
+	
+	line-height:1.5;
+	font-size: 1em;
+
+}
+
+a {
+	
+	text-decoration: underline;
+	color: $mcaz_gray;
+
+	&:visited {
+		
+		color: $mcaz_blue;
+		text-decoration: none;
+
+	}
+
+	&:hover {
+		
+		color: $mcaz_blue;
+
+	}
+
+	&:active {
+		
+		color: $mcaz_blue;
+		text-decoration: none;
+
+	}
+
+}
+
+/* We're going to set a margin for our content blocks,
+// in case a user without js hits the site.
+// we'll reset this to 0 at the top of scripts.js
+// so our margins are tight'n'right
+*/
+
+.content {
+
+	margin: 5em 1.25em;
+
+}
+
+body {
+
+	background: $mcaz_green;
+	color: $mcaz_gray;
+	font-family: $sans;
+
+}
+
+#header {
+
+	margin: 0 0 1em 0;
+
+	nav {
+
+		// display: none;
+
+	}
+
+	h1 {
+
+		text-align: center;
+
+		a {
+
+			color: $mcaz_gray;
+			text-decoration: none;
+
+		}
+
+	}
+
+	h2 {
+
+		color: $mcaz_yellow;
+		text-align: center;
+		margin: 0 auto;
+
+	}
+
+	hgroup {
+
+		margin-top: 1em;
+		
+	}
+
+}
+
+/* LARGER MOBILE DEVICES */
+@media only screen and (min-width: 481px) {
+
+	
+
+}
+
+/* TABLET & SMALLER LAPTOP */
+@media only screen and (min-width: 768px) {
+
+	/* Custom fonts */
+		/* h2 */
+		@font-face {
+		    
+		    font-family: 'daxcompact-extrabold';
+		    src: url('../font/daxcomeb-webfont.eot');
+		    src: url('../font/daxcomeb-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../font/daxcomeb-webfont.woff') format('woff'),
+		         url('../font/daxcomeb-webfont.ttf') format('truetype'),
+		         url('../font/daxcomeb-webfont.svg#daxcompact-extrabold') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+		/* logo */
+		@font-face {
+		    
+		    font-family: 'daxcompact-light';
+		    src: url('../font/daxcompl-webfont.eot');
+		    src: url('../font/daxcompl-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../font/daxcompl-webfont.woff') format('woff'),
+		         url('../font/daxcompl-webfont.ttf') format('truetype'),
+		         url('../font/daxcompl-webfont.svg#daxcompact-light') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+		/* body */
+		@font-face {
+		    
+		    font-family: 'din-lightalternate';
+		    src: url('../font/dinla___-webfont.eot');
+		    src: url('../font/dinla___-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../font/dinla___-webfont.woff') format('woff'),
+		         url('../font/dinla___-webfont.ttf') format('truetype'),
+		         url('../font/dinla___-webfont.svg#din-lightalternate') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+	
+	body {
+		
+		background: $mcaz_green;
+		font-family: $sans;
+		color: $mcaz_gray;
+
+	}
+
+	p {
+		
+		margin: 10px 0;
+
+	}
+
+	ul, ol {
+		
+		margin: 0 10px;
+		line-height: 1;
+
+	}
+
+	li {
+		
+		padding: 2px;
+
+	}
+
+	ul {
+		
+		list-style: circle;
+		margin-left: 30px;
+
+		li {
+			
+			padding-left: 0px;
+			margin-left: 0px;
+
+		}
+	}
+
+	footer {
+	}
+
+	.content {
+
+	margin: 1em .25em;
+
+	}
+
+	.group:after {
+		
+		content: "";
+		display: table;
+		clear: both;
+
+	}
+
+	.first {
+		
+		margin-left: 0 !important;
+		padding-left: 0 !important;
+
+	}
+
+	#content {
+		
+		width: 68%;
+		max-width: 980px !important;
+		padding: 0px 20px;
+		margin: 0 auto;
+
+	}
+
+	span.amp {
+
+		font-family: Baskerville, Georgia, serif;
+		font-size:110%;
+		font-style:italic;
+		font-weight: 300;
+
+	}
+
+	#header {
+
+		text-shadow: 0px 2px 2px rgba(0,0,0,.3);
+
+		h1 {
+			
+			font-size: 12.9em;
+			font-size: 9.2vw;
+			white-space: pre;
+			margin:0 0 0 -8px;
+			text-align: left;
+
+		}
+
+		h2 {
+			
+			font-size: 4.4em;
+			font-size: 3vw;
+			white-space: pre;
+			color: $mcaz_yellow !important;
+			margin: 20px 0;
+
+		}
+
+		hgroup {
+			
+			float: left;
+			width: 100%;
+
+			a, a:active, a:hover, a:visited {
+
+				text-decoration: none !important;
+				color: $mcaz_gray !important;
+
+			}
+		}
+
+		nav {
+
+			float: right;
+			margin: 100px 0 0 0;
+			clear:left;
+
+			ul {
+
+				float: right;
+				list-style: none;
+				
+				li {
+					
+					float: left;
+
+				}
+				
+				a {
+					
+					line-height: 3;
+					padding: 5px 10px 5px 0;
+
+					&:hover {
+
+						color: darken($mcaz_blue, 15%);
+
+					}
+
+				}
+
+			}
+
+		}
+	}
+
+	#home {
+
+		h2.h6 {
+			
+			a.contactLink {
+
+				color: $mcaz_yellow;
+
+			}
+
+		}
+
+	}
+
+	#portfolio {
+
+		img {
+			
+			padding: 0 10px 10px 0;
+			margin: 0;
+
+		}
+
+		img:nth-child(4n-1) {
+		}
+
+		img:nth-child(4n+2) {
+
+			padding: 0px 0px 10px 0px;
+
+		}
+
+	}
+
+	#contact {
+
+		p, .p {
+			
+			// float: left;
+			// max-width: 40%;
+			// margin-right: 10%;
+
+		}
+
+		form {
+
+			// float: left;
+			max-width: 300px;
+			padding:10px;
+			background: #23272a url('../img/formBg.jpg') no-repeat;
+
+		}
+
+		label, input {
+			float: left;
+		}
+
+		input {
+			clear: both;
+		}
+
+		label {
+			clear: left;
+		}
+
+		fieldset {
+			border: 1px solid rgba(255,255,255,0.25);
+			padding: 10px;
+			margin: 10px;
+		}
+
+		legend {
+			padding: 0 10px;
+		}
+
+	}
+
+	#about {
+
+		article {
+			
+			width: 60%;
+			float: left;
+
+		}
+
+		aside {
+
+			width: 30%;
+			float: right;
+			margin-bottom: 50px;
+
+			h5 {
+				margin-bottom: 11px;
+			}
+
+		}
+
+	}
+
+	#recentClients {
+
+		ul {
+			
+			margin-top: 5px;
+
+			li {
+				
+				display: inline-block;
+				margin-right: 15px;
+				padding: 7.5px;
+				border: 1px solid rgba(0,0,0,0);
+				border-radius: 7px;
+
+				&:hover {
+
+					cursor: pointer;  
+					box-shadow: 0 0 5px rgba(82, 190, 206, .8);
+
+				}
+			}
+
+		}
+
+	}
+
+	footer {
+
+		background: $mcaz_yellow;
+		width: 100%;
+		padding: 25px 10px;
+
+		a {
+
+			float: left;
+
+			img {
+				float: right;
+			}
+
+			h5 {
+				float: right;
+				padding-top: 3px;
+				font-size: 1em;
+				width: 200px;
+				color: $mcaz_green;
+			}
+
+		}
+
+	}
+
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1030px) {
+
+	body {
+		background: $mcaz_green url(../img/bodyBg.jpg) top center;
+		background-size: contain;
+	}
+
+}
