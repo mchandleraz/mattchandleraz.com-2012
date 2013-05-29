@@ -45,7 +45,7 @@
 				</nav>
 				<hgroup>
 					<h1 id="headline"><a href="index.php">mattchandleraz.com</a></h1>
-					<h2 id="tagline"><strong>Front-End Web Developer &amp; Designer</strong></h2>
+					<h2 id="tagline"><strong>Front-End Web Developer &amp; UX Evangelist</strong></h2>
 				</hgroup>
 			</header>
 
