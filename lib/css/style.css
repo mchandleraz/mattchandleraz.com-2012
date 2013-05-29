@@ -407,7 +407,7 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    border-top: 1px solid white;
+    border-top: 1px solid #dbd0d0;
   }
   /* line 568, ../scss/style.scss */
   footer a {
