@@ -402,16 +402,19 @@ body {
     background: #ffbd2f;
     width: 100%;
     padding: 25px 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
-  /* line 562, ../scss/style.scss */
+  /* line 565, ../scss/style.scss */
   footer a {
     float: left;
   }
-  /* line 566, ../scss/style.scss */
+  /* line 569, ../scss/style.scss */
   footer a img {
     float: right;
   }
-  /* line 570, ../scss/style.scss */
+  /* line 573, ../scss/style.scss */
   footer a h5 {
     float: right;
     padding-top: 3px;
@@ -422,7 +425,7 @@ body {
 }
 /* DESKTOP */
 @media only screen and (min-width: 1030px) {
-  /* line 588, ../scss/style.scss */
+  /* line 591, ../scss/style.scss */
   body {
     background: #1b383e url(../img/bodyBg.jpg) top center;
     background-size: contain;
