@@ -324,6 +324,18 @@ body {
 
 	}
 
+	#blog .content {
+		text-align: center;
+	}
+
+	#blog .content h1 {
+		line-height: 2em;
+	}
+
+	#blog .content h5 {
+		font-style: italic;
+	}
+
 	.group:after {
 		
 		content: "";
@@ -567,21 +579,15 @@ body {
 		bottom: 0;
 		left: 0;
 		border-top: 1px solid $mcaz_gray;
+		min-height: 60px;
 
 		a {
 
-			float: left;
+			color: $mcaz_green;
+			text-decoration: none;
 
-			img {
-				float: right;
-			}
-
-			h5 {
-				float: right;
-				padding-top: 3px;
-				font-size: 1em;
-				width: 200px;
-				color: $mcaz_green;
+			&:hover, &:visited {
+				color: white;
 			}
 
 		}
