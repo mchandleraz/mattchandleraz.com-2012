@@ -368,6 +368,7 @@ body {
 			white-space: pre;
 			margin:0 0 0 -8px;
 			text-align: left;
+			padding-left: 3px;
 
 		}
 
@@ -378,6 +379,7 @@ body {
 			white-space: pre;
 			color: $mcaz_yellow !important;
 			margin: 20px 0;
+			margin-left: -3px;
 
 		}
 
@@ -397,8 +399,9 @@ body {
 		nav {
 
 			float: right;
-			margin: 100px 0 0 0;
 			clear:left;
+			background: $mcaz_gray;
+			width: 100%;
 
 			ul {
 
@@ -558,9 +561,9 @@ body {
 	footer {
 
 		background: $mcaz_yellow;
-		width: 100%;
+		width: 68%;
+		margin: 0 auto;
 		padding: 25px 10px;
-		position: fixed;
 		bottom: 0;
 		left: 0;
 		border-top: 1px solid $mcaz_gray;

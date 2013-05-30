@@ -277,115 +277,118 @@ body {
     white-space: pre;
     margin: 0 0 0 -8px;
     text-align: left;
+    padding-left: 3px;
   }
-  /* line 374, ../scss/style.scss */
+  /* line 375, ../scss/style.scss */
   #header h2 {
     font-size: 4.4em;
     font-size: 3vw;
     white-space: pre;
     color: #ffbd2f !important;
     margin: 20px 0;
+    margin-left: -3px;
   }
-  /* line 384, ../scss/style.scss */
+  /* line 386, ../scss/style.scss */
   #header hgroup {
     float: left;
     width: 100%;
   }
-  /* line 389, ../scss/style.scss */
+  /* line 391, ../scss/style.scss */
   #header hgroup a, #header hgroup a:active, #header hgroup a:hover, #header hgroup a:visited {
     text-decoration: none !important;
     color: #dbd0d0 !important;
   }
-  /* line 397, ../scss/style.scss */
+  /* line 399, ../scss/style.scss */
   #header nav {
     float: right;
-    margin: 100px 0 0 0;
     clear: left;
+    background: #dbd0d0;
+    width: 100%;
   }
-  /* line 403, ../scss/style.scss */
+  /* line 406, ../scss/style.scss */
   #header nav ul {
     float: right;
     list-style: none;
   }
-  /* line 408, ../scss/style.scss */
+  /* line 411, ../scss/style.scss */
   #header nav ul li {
     float: left;
   }
-  /* line 414, ../scss/style.scss */
+  /* line 417, ../scss/style.scss */
   #header nav ul a {
     line-height: 3;
     padding: 5px 10px 5px 0;
   }
-  /* line 419, ../scss/style.scss */
+  /* line 422, ../scss/style.scss */
   #header nav ul a:hover {
     color: #2f96a5;
   }
 
-  /* line 436, ../scss/style.scss */
+  /* line 439, ../scss/style.scss */
   #home h2.h6 a.contactLink {
     color: #ffbd2f;
   }
 
-  /* line 448, ../scss/style.scss */
+  /* line 451, ../scss/style.scss */
   #portfolio img {
     padding: 0 10px 10px 0;
     margin: 0;
   }
-  /* line 458, ../scss/style.scss */
+  /* line 461, ../scss/style.scss */
   #portfolio img:nth-child(4n+2) {
     padding: 0px 0px 10px 0px;
   }
 
-  /* line 476, ../scss/style.scss */
+  /* line 479, ../scss/style.scss */
   #contact form {
     max-width: 300px;
     padding: 10px;
     background: #23272a url("../img/formBg.jpg") no-repeat;
   }
-  /* line 485, ../scss/style.scss */
+  /* line 488, ../scss/style.scss */
   #contact label, #contact input {
     float: left;
   }
-  /* line 489, ../scss/style.scss */
+  /* line 492, ../scss/style.scss */
   #contact input {
     clear: both;
   }
-  /* line 493, ../scss/style.scss */
+  /* line 496, ../scss/style.scss */
   #contact label {
     clear: left;
   }
-  /* line 497, ../scss/style.scss */
+  /* line 500, ../scss/style.scss */
   #contact fieldset {
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 10px;
     margin: 10px;
   }
-  /* line 503, ../scss/style.scss */
+  /* line 506, ../scss/style.scss */
   #contact legend {
     padding: 0 10px;
   }
 
-  /* line 511, ../scss/style.scss */
+  /* line 514, ../scss/style.scss */
   #about article {
     width: 60%;
     float: left;
   }
-  /* line 518, ../scss/style.scss */
+  /* line 521, ../scss/style.scss */
   #about aside {
     width: 30%;
     float: right;
     margin-bottom: 50px;
   }
-  /* line 524, ../scss/style.scss */
+  /* line 527, ../scss/style.scss */
   #about aside h5 {
     margin-bottom: 11px;
   }
 
-  /* line 534, ../scss/style.scss */
+  /* line 537, ../scss/style.scss */
   #recentClients ul {
     margin-top: 5px;
   }
-  /* line 538, ../scss/style.scss */
+  /* line 541, ../scss/style.scss */
   #recentClients ul li {
     display: inline-block;
     margin-right: 15px;
@@ -393,31 +396,31 @@ body {
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 7px;
   }
-  /* line 546, ../scss/style.scss */
+  /* line 549, ../scss/style.scss */
   #recentClients ul li:hover {
     cursor: pointer;
     box-shadow: 0 0 5px rgba(82, 190, 206, 0.8);
   }
 
-  /* line 558, ../scss/style.scss */
+  /* line 561, ../scss/style.scss */
   footer {
     background: #ffbd2f;
-    width: 100%;
+    width: 68%;
+    margin: 0 auto;
     padding: 25px 10px;
-    position: fixed;
     bottom: 0;
     left: 0;
     border-top: 1px solid #dbd0d0;
   }
-  /* line 568, ../scss/style.scss */
+  /* line 571, ../scss/style.scss */
   footer a {
     float: left;
   }
-  /* line 572, ../scss/style.scss */
+  /* line 575, ../scss/style.scss */
   footer a img {
     float: right;
   }
-  /* line 576, ../scss/style.scss */
+  /* line 579, ../scss/style.scss */
   footer a h5 {
     float: right;
     padding-top: 3px;
@@ -428,7 +431,7 @@ body {
 }
 /* DESKTOP */
 @media only screen and (min-width: 1030px) {
-  /* line 594, ../scss/style.scss */
+  /* line 597, ../scss/style.scss */
   body {
     background: #1b383e url(../img/bodyBg.jpg) top center;
     background-size: contain;

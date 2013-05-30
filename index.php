@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
 	<!--
-	// designed & developed exclusively
-	// in the browser, by matt chandler
 	//
-	// no photoshop here. just clean code.
-	// http://mattchandleraz.com/clean-code
+	// designed & developed in the 
+	// browser, by matt chandler.
+	//
 	-->	
 
 <html>
@@ -79,10 +78,11 @@
 						<li>HTML5</li>
 						<li>CSS3</li>
 						<li>Responsive Web Design</li>
+						<li>Git</li>
 						<li>PHP</li>
 						<LI>MySQL</LI>
-						<li>Javascript/jQuery</li>
-						<li>Wordpress</li>
+						<li>Javascript &amp; jQuery</li>
+						<li>WordPress</li>
 						<li>Adobe Photoshop and Illustrator</li>
 					</ul>
 				</aside>
@@ -123,15 +123,10 @@
 					<img src="lib/img/portfolio1.jpg" alt="Portfolio 3">
 
 			</section>
-
-			<footer class="group">
-				<a id="html5badge" href="http://www.w3.org/html/logo/">
-					<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-device-semantics.png" width="100" alt="HTML5 Powered with CSS3 / Styling, Device Access, and Semantics" title="HTML5 Powered with CSS3 / Styling, Device Access, and Semantics">
-					<h5>This site was hand-crafted in Phoenix, Arizona using the latest HTML5 and CSS3 techniques.</h5>
-				</a>
-			</footer>
 			
-		</div>
+		</div><!-- end content -->
+		<footer class="group">
+		</footer>
 	</body>
 
 </html>
