@@ -69,9 +69,53 @@
 
 				<p>Some of my most recent work.</p>
 
+				<div class="portfolio-piece">
 					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
-					<img src="lib/img/portfolio1.jpg" alt="Portfolio 2">
-					<img src="lib/img/portfolio1.jpg" alt="Portfolio 3">
+					<aside>
+						<h1>Project Title</h1>
+						<ul class="tags">
+							<li>Tag 1</li>
+							<li>Tag 2</li>
+							<li>Tag 3</li>
+						</ul>
+					</aside>
+				</div>
+
+				<div class="portfolio-piece">
+					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
+					<aside>
+						<h1>Project Title</h1>
+						<ul class="tags">
+							<li>Tag 1</li>
+							<li>Tag 2</li>
+							<li>Tag 3</li>
+						</ul>
+					</aside>
+				</div>
+
+				<div class="portfolio-piece">
+					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
+					<aside>
+						<h1>Project Title</h1>
+						<ul class="tags">
+							<li>Tag 1</li>
+							<li>Tag 2</li>
+							<li>Tag 3</li>
+						</ul>
+					</aside>
+				</div>
+
+				<div class="portfolio-piece">
+					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
+					<aside>
+						<h1>Project Title</h1>
+						<ul class="tags">
+							<li>Tag 1</li>
+							<li>Tag 2</li>
+							<li>Tag 3</li>
+						</ul>
+					</aside>
+				</div>
 
 			</section>
 			
