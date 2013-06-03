@@ -3,9 +3,6 @@
 	<!--
 	// designed & developed exclusively
 	// in the browser, by matt chandler
-	//
-	// no photoshop here. just clean code.
-	// http://mattchandleraz.com/clean-code
 	-->	
 
 <html>
