@@ -311,6 +311,7 @@ body {
   #portfolio .portfolio-item {
     display: block;
     clear: both;
+    margin-bottom: 1em;
   }
   #portfolio img {
     float: left;
@@ -318,8 +319,9 @@ body {
     display: inline-block;
   }
   #portfolio aside {
-    float: right;
+    float: left;
     max-width: 78%;
+    margin-left: 2%;
     display: inline-block;
   }
   #portfolio .tags {
