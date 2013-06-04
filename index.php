@@ -13,13 +13,13 @@
 					<section id="recentClients">
 						<h4 class="h6">Recent Clients</h4>
 						<ul>
-							<li>AZ Rattlers</li>
-							<li>TannerNet Technologies</li>
-							<li>Digital News Aggregation</li>
-							<li>Prophecy Technologies</li>
+							<li><a href="http://rtlrs.mattchandleraz.com">AZ Rattlers</a></li>
+							<li><a href="http://tannernet.com/">TannerNet Technologies</a></li>
+							<li><a href="http://dnaprss.com/">Digital News Aggregation</a></li>
+							<li><a href="http://prophecy.mattchandleraz.com/">Prophecy Technologies</a></li>
 							<li>Tuner Ready Motorsports</li>
-							<li>Gilbert Daily PRSS</li>
-							<li>Quest National</li>
+							<li><a href="http://gilbert-news.dailyprss.com/">Gilbert Daily PRSS</a></li>
+							<li><a href="http://questltc.com/">Quest National</a></li>
 						</ul>
 					</section>
 				</article>

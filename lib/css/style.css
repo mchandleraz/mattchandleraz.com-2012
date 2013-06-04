@@ -378,17 +378,26 @@ body {
 
   #recentClients ul {
     margin-top: 5px;
+    width: 100%;
   }
   #recentClients ul li {
     display: inline-block;
-    margin-right: 15px;
     padding: 7.5px;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 7px;
+    width: 42%;
   }
   #recentClients ul li:hover {
     cursor: pointer;
     box-shadow: 0 0 5px rgba(82, 190, 206, 0.8);
+    color: #52bece;
+  }
+  #recentClients ul li:hover a {
+    color: #52bece;
+  }
+  #recentClients ul li a {
+    color: #dbd0d0;
+    text-decoration: none;
   }
 
   footer {
