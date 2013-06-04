@@ -1,4 +1,5 @@
 /* Reset */
+
 html, body, div, span, applet, object, iframe, h1, h2,
 h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
 address, big, cite, code, del, dfn, em, img, ins, kbd,
@@ -622,8 +623,6 @@ body {
 	footer {
 
 		background: $mcaz_yellow;
-		width: 68%;
-		margin: 0 auto;
 		padding: 25px 10px;
 		bottom: 0;
 		left: 0;
@@ -643,17 +642,59 @@ body {
 
 	}
 
+	#inner-footer {
+		width: 68%;
+		margin: 0 auto;
+	}
+
+	/* Sticky Footer */
+
+	html, body {
+		height: 100%;
+	}
+
+	#content {
+		min-height: 100%;
+	}
+
+	#main {
+		overflow:auto;
+		padding-bottom: 130px; /* must be same height as the footer */
+	}
+
+	footer {
+		position: relative;
+		margin-top: -130px; /* negative value of footer height */
+		height: 130px;
+		clear:both;
+	}
+
+	/*Opera Fix*/
+	/* thanks to Maleika (Kohoutec)*/
+	body:before {
+		content:"";
+		height:100%;
+		float:left;
+		width:0;
+		margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+	}
+	/* End stickyfooter */
+
 	.footer-text-widget {
 
-		list-style: none;
-		margin-left: 0;
+		width: 50%;
+		float: left;
 
-		li {
+		ul {
 
-			display: inline-block;
-			margin: 0 10px;
+			list-style: none;
+			margin-left: 0;
+			
+			li { margin: 0 10px; }
 
 		}
+
+		h3, p { color: white; }
 	
 	}
 

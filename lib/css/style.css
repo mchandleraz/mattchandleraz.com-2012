@@ -386,8 +386,6 @@ body {
 
   footer {
     background: #ffbd2f;
-    width: 68%;
-    margin: 0 auto;
     padding: 25px 10px;
     bottom: 0;
     left: 0;
@@ -402,13 +400,59 @@ body {
     color: white;
   }
 
+  #inner-footer {
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  /* Sticky Footer */
+  html, body {
+    height: 100%;
+  }
+
+  #content {
+    min-height: 100%;
+  }
+
+  #main {
+    overflow: auto;
+    padding-bottom: 130px;
+    /* must be same height as the footer */
+  }
+
+  footer {
+    position: relative;
+    margin-top: -130px;
+    /* negative value of footer height */
+    height: 130px;
+    clear: both;
+  }
+
+  /*Opera Fix*/
+  /* thanks to Maleika (Kohoutec)*/
+  body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+    /* thank you Erik J - negate effect of float*/
+  }
+
+  /* End stickyfooter */
   .footer-text-widget {
+    width: 50%;
+    float: left;
+  }
+  .footer-text-widget ul {
     list-style: none;
     margin-left: 0;
   }
-  .footer-text-widget li {
-    display: inline-block;
+  .footer-text-widget ul li {
     margin: 0 10px;
+  }
+  .footer-text-widget h3, .footer-text-widget p {
+    color: white;
   }
 }
 /* DESKTOP */

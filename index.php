@@ -1,4 +1,5 @@
 <?php @include('templates/header.php') ?>
+		<div id="main">
 			<section id="home" class="content group">
 				<p><em>Howdy!</em> I'm a <strong>web developer in the Phoenix, Arizona area</strong>. I specialize in front-end web development, and I <strong>love</strong> <a href="http://wordpress.org/">Wordpress</a> as a <abbr title="Content Management System">CMS</abbr>.
 				<p>I enjoy helping small and medium-sized businesses cultivate an incredible web presence, using leading-edge web development techniques. To find out more about me, hit the <a href="#about" class="aboutLink">About section</a>. If you want to see my work, check out my <a href="#portfolio" class="portfolioLink">portfolio</a>.
@@ -112,6 +113,6 @@
 				</div>
 
 			</section>
-			
+		</div> <!-- end main -->
 		</div><!-- end content -->
 <?php @include('templates/footer.php') ?>
