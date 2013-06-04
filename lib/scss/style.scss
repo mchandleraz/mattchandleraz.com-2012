@@ -220,6 +220,8 @@ body {
 }
 
 .close {
+	border-right: 1px solid $mcaz_gray;
+	border-top: 1px solid $mcaz_gray;
 	background: rgba(0,0,0,.5);
 	padding: .5em .25em;
 	text-align: center;
