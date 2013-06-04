@@ -1,5 +1,6 @@
 
 		<footer class="group">
+			<h3>Elsewhere</h3>
 			<ul class="footer-text-widget">
 				<li><a href="http://stackoverflow.com/users/1669930/mchandleraz">StackOverflow</a></li>
 				<li><a href="http://www.behance.net/MattChandler">Behance</a></li>

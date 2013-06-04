@@ -69,51 +69,45 @@
 
 				<p>Some of my most recent work.</p>
 
-				<div class="portfolio-piece">
+				<div class="group portfolio-item">
+					<a class="close">[ X ] Close</a>
 					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
 					<aside>
 						<h1>Project Title</h1>
-						<ul class="tags">
+						<ul class="tags group">
 							<li>Tag 1</li>
 							<li>Tag 2</li>
 							<li>Tag 3</li>
 						</ul>
+						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown. Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
 					</aside>
 				</div>
 
-				<div class="portfolio-piece">
+				<div class="group portfolio-item">
+					<a class="close">[ X ] Close</a>
 					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
 					<aside>
 						<h1>Project Title</h1>
-						<ul class="tags">
+						<ul class="tags group">
 							<li>Tag 1</li>
 							<li>Tag 2</li>
 							<li>Tag 3</li>
 						</ul>
+						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown. Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
 					</aside>
 				</div>
 
-				<div class="portfolio-piece">
+				<div class="group portfolio-item">
+					<a class="close">[ X ] Close</a>
 					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
 					<aside>
 						<h1>Project Title</h1>
-						<ul class="tags">
+						<ul class="tags group">
 							<li>Tag 1</li>
 							<li>Tag 2</li>
 							<li>Tag 3</li>
 						</ul>
-					</aside>
-				</div>
-
-				<div class="portfolio-piece">
-					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
-					<aside>
-						<h1>Project Title</h1>
-						<ul class="tags">
-							<li>Tag 1</li>
-							<li>Tag 2</li>
-							<li>Tag 3</li>
-						</ul>
+						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown. Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
 					</aside>
 				</div>
 
