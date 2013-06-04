@@ -25,7 +25,7 @@
 	        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	    <script src="lib/js/mcaz.js?v=0.6"></script>
+	    <script src="lib/js/mcaz.js?v=0.69"></script>
 
 	</head>
 

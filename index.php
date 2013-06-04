@@ -79,7 +79,7 @@
 							<li>Tag 2</li>
 							<li>Tag 3</li>
 						</ul>
-						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown. Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
+						<p>Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. </p>
 					</aside>
 				</div>
 
@@ -93,7 +93,7 @@
 							<li>Tag 2</li>
 							<li>Tag 3</li>
 						</ul>
-						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown. Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
+						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown.</p>
 					</aside>
 				</div>
 
@@ -107,7 +107,7 @@
 							<li>Tag 2</li>
 							<li>Tag 3</li>
 						</ul>
-						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown. Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
+						<p>Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
 					</aside>
 				</div>
 
