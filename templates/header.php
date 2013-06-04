@@ -30,16 +30,16 @@
 	</head>
 
 	<body>
+		<nav id="nav" class="group">
+			<ul>
+				<li class="homeLink"><a href="#top">Home</a></li>
+				<li class="aboutLink"><a href="#about">About</a></li>
+				<li class="contactLink"><a href="#contact">Contact</a></li>
+				<li class="portfolioLink"><a href="#portfolio">Portfolio</a></li>
+			</ul>
+		</nav>
 		<div id="content">
 			<header id="header" class="group">
-				<!--<nav>
-					<ul>
-						<li class="homeLink"><a href="#top">Home</a></li>
-						<li class="aboutLink"><a href="#about">About</a></li>
-						<li class="contactLink"><a href="#contact">Contact</a></li>
-						<li class="portfolioLink"><a href="#portfolio">Portfolio</a></li>
-					</ul>
-				</nav>-->
 				<hgroup>
 					<h1 id="headline"><a href="index.php">mattchandleraz.com</a></h1>
 					<h2 id="tagline"><strong>Front-End Web Developer &amp; UX Evangelist</strong></h2>

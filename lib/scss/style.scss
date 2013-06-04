@@ -181,15 +181,15 @@ body {
 
 }
 
+#nav {
+
+	// display: none;
+
+}
+
 #header {
 
 	margin: 0 0 1em 0;
-
-	nav {
-
-		// display: none;
-
-	}
 
 	h1 {
 
@@ -324,9 +324,6 @@ body {
 		}
 	}
 
-	footer {
-	}
-
 	.content {
 
 		margin: 1em .25em;
@@ -385,6 +382,47 @@ body {
 
 	}
 
+	#nav {
+
+		width: 100%;
+		background: $mcaz_yellow;
+
+		ul {
+
+			list-style: none;
+			margin: 0 auto;
+			width: 68%;
+			text-align: right;
+			
+			li {
+				
+				display: inline-block;
+				padding: 0;
+				text-align: center;
+
+				&:hover {
+
+					background-color: darken($mcaz_yellow, 5%);
+
+				}
+
+			}
+			
+			a {
+				
+				line-height: 3;
+				color: white;
+				font-weight: 700;
+				text-decoration: none;
+				padding: 5px 10px;
+				text-align: center;
+
+			}
+
+		}
+
+	}
+
 	#header {
 
 		text-shadow: 0px 2px 2px rgba(0,0,0,.3);
@@ -424,40 +462,6 @@ body {
 			}
 		}
 
-		nav {
-
-			float: right;
-			clear:left;
-			background: $mcaz_gray;
-			width: 100%;
-
-			ul {
-
-				float: right;
-				list-style: none;
-				
-				li {
-					
-					float: left;
-
-				}
-				
-				a {
-					
-					line-height: 3;
-					padding: 5px 10px 5px 0;
-
-					&:hover {
-
-						color: darken($mcaz_blue, 15%);
-
-					}
-
-				}
-
-			}
-
-		}
 	}
 
 	#home {
