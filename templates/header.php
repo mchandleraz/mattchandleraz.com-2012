@@ -25,7 +25,7 @@
 	        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	    <script src="lib/js/mcaz.js?v=0.7"></script>
+	    <script src="lib/js/mcaz.js?v=0.73"></script>
 
 	</head>
 
@@ -39,6 +39,7 @@
 			</ul>
 		</nav>
 		<div id="content">
+			<a id="menuToggle">Menu</a>
 			<header id="header" class="group">
 				<hgroup>
 					<h1 id="headline"><a href="index.php">mattchandleraz.com</a></h1>
