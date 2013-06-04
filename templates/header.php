@@ -29,7 +29,7 @@
 
 	</head>
 
-	<body id="<?php echo basename(__FILE__, '.php'); ?>">
+	<body>
 		<div id="content">
 			<header id="header" class="group">
 				<!--<nav>
