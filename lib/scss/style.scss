@@ -554,7 +554,13 @@ body {
 
 			display: block;
 			clear: both;
-			margin-bottom: 1em;
+			margin-bottom: 3em;
+
+			&:last-child {
+				
+				margin-bottom: 8em;
+
+			}
 
 		}
 
@@ -581,10 +587,14 @@ body {
 			padding: 0;
 
 			li {
-
 				display: inline-block;
 				float: left;
-
+				background: gray;
+				padding: .5em;
+				margin-right: .6em;
+				border-top-left-radius: .5em;
+				border-bottom-right-radius: .5em;
+				font-size: .75em;
 			}
 
 		}

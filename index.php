@@ -72,43 +72,66 @@
 
 				<div class="group portfolio-item">
 					<a class="close">[ X ] Close</a>
-					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
+					<img src="lib/img/portfolio/rattlers.jpg" alt="Arizona Rattlers WordPress-powered HTML5 website">
 					<aside>
-						<h1>Project Title</h1>
+						<h1>Arizona Rattlers</h1>
 						<ul class="tags group">
-							<li>Tag 1</li>
-							<li>Tag 2</li>
-							<li>Tag 3</li>
+							<li>WordPress</li>
+							<li>PHP</li>
+							<li>HTML5</li>
+							<li>jQuery</li>
+							<li>CSS3</li>
+							<li>Responsive Web Design</li>
 						</ul>
-						<p>Artisan Bushwick twee readymade Banksy. Kale chips Brooklyn beard, farm-to-table ethical shabby chic before they sold out literally flannel master cleanse PBR gentrify. Ethical small batch forage street art hoodie pickled. </p>
+						<p>The Arizona Rattlers needed a new web presence for the 2013 season, and had specific functionality goals in mind. We worked together to achieve the functionality, refresh the look, and incorporate the Rattlers 2013 season branding strategy into their online efforts.</p>
+						<p><a href="http://rtlrs.mattchandleraz.com/">Visit Website</a></p>
 					</aside>
 				</div>
 
 				<div class="group portfolio-item">
 					<a class="close">[ X ] Close</a>
-					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
+					<img src="lib/img/portfolio/gilbert-news-blog.jpg" alt="Gilbert Daily PRSS CMS website">
 					<aside>
-						<h1>Project Title</h1>
+						<h1>Gilbert Daily News</h1>
 						<ul class="tags group">
-							<li>Tag 1</li>
-							<li>Tag 2</li>
-							<li>Tag 3</li>
+							<li>Theme Modification</li>
+							<li>WordPress</li>
+							<li>jQuery</li>
+							<li>Responsive Web Design</li>
 						</ul>
-						<p>Jean shorts hoodie freegan Vice Schlitz Cosby sweater. Banksy tousled Godard, organic gluten-free wolf aesthetic butcher authentic twee bespoke 3 wolf moon. Flannel four loko gluten-free banjo, helvetica Portland 8-bit tattooed stumptown.</p>
+						<p>DiscoverMINE needed some help customizing and tweaking a WordPress theme they were using for the Gilbert Daily PRSS blog. I modified the theme to suit their needs, as well as improved usability on smaller devices.</p>
+						<p><a href="http://gilbert-news-blog.dailyprss.com">Visit Website</a></p>
 					</aside>
 				</div>
 
 				<div class="group portfolio-item">
 					<a class="close">[ X ] Close</a>
-					<img src="lib/img/portfolio1.jpg" alt="Portfolio 1">
+					<img src="lib/img/portfolio/ksport.jpg" alt="Ksport WordPress website">
 					<aside>
-						<h1>Project Title</h1>
+						<h1>Ksport USA</h1>
 						<ul class="tags group">
-							<li>Tag 1</li>
-							<li>Tag 2</li>
-							<li>Tag 3</li>
+							<li>WordPress</li>
+							<li>e-commerce</li>
+							<li>Javascript</li>
+							<li>PHP</li>
 						</ul>
-						<p>Gluten-free forage intelligentsia scenester, Cosby sweater Tonx PBR.</p>
+						<p>Ksport was looking for an updated look and lots of new functionality from their website. Through knowledge of their target demographic, I was able to deliver a feature-rich website that was more aligned with the brand, and gave Ksport staff the tools needed to succesfully maintain their website.</p>
+						<p><a href="http://ksportusa.com/">Visit website</a></p>
+					</aside>
+				</div>
+
+				<div class="group portfolio-item">
+					<a class="close">[ X ] Close</a>
+					<img src="lib/img/portfolio/prophecy.jpg" alt="Prophecy Technologies website">
+					<aside>
+						<h1>Prophecy Technologies</h1>
+						<ul class="tags group">
+							<li>WordPress</li>
+							<li>CSS3</li>
+							<li>HTML5</li>
+							<li>Responsive Web Design</li>
+						</ul>
+						<p>Prophecy Technologies is an IT service startup in Gilbert.</p>
 					</aside>
 				</div>
 
