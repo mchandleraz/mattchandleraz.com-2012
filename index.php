@@ -6,6 +6,13 @@
 				<p class="p"><a href="#contact" class="contactLink">Contact me</a> if you'd like to talk about your project.</p>
 			</section>
 
+			<div id="preloader">
+				<img class="preload" src="lib/img/portfolio/prophecy_lg.jpg" alt="">
+				<img class="preload" src="lib/img/portfolio/ksport_lg.jpg" alt="">
+				<img class="preload" src="lib/img/portfolio/gilbert-news-blog_lg.jpg" alt="">
+				<img class="preload" src="lib/img/portfolio/rattlers_lg.jpg" alt="">
+			</div>
+
 			<section id="about" class="content group">
 				<article>
 					<h3>About</h3>
@@ -137,10 +144,6 @@
 				</div>
 
 			</section>
-			<img class="preload" src="lib/img/portfolio/prophecy_lg.jpg" alt="">
-			<img class="preload" src="lib/img/portfolio/ksport_lg.jpg" alt="">
-			<img class="preload" src="lib/img/portfolio/gilbert-news-blog_lg.jpg" alt="">
-			<img class="preload" src="lib/img/portfolio/rattlers_lg.jpg" alt="">
 		</div> <!-- end main -->
 		</div><!-- end content -->
 <?php @include('templates/footer.php') ?>

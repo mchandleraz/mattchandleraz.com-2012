@@ -302,6 +302,11 @@ body {
 	margin: 0;
 }
 
+#preloader {
+	visibility: hidden;
+	display: none;
+}
+
 img.preload {
 	position: absolute;
 	overflow: hidden;
