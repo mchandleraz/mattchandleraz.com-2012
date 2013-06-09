@@ -302,6 +302,15 @@ body {
 	margin: 0;
 }
 
+img.preload {
+	position: absolute;
+	overflow: hidden;
+	left: -9999px; 
+	top: -9999px;
+	height: 1px;
+	width: 1px;
+}
+
 /* LARGER MOBILE DEVICES */
 @media only screen and (min-width: 481px) {
 

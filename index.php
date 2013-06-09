@@ -10,6 +10,7 @@
 				<article>
 					<h3>About</h3>
 					<p>In case you missed it, my name's Matt. I'm a web developer primarily serving the Phoenix area, but have worked with clients from Idaho to New York. I tackle projects from email newsletter templates to database-driven CMS-powered websites for businesses. I'm the founder &amp; creator of <a href="#" id="meta">META</a>, an HTML5 mobile web app for vintage motorcycle enthusiasts.</p>
+					<p>My Github profile: <a href="https://github.com/mchandleraz">https://github.com/mchandleraz</a><br>My tweets: <a href="https://twitter.com/mchandleraz">https://twitter.com/mchandleraz</a></p>
 					<section id="recentClients">
 						<h4 class="h6">Recent Clients</h4>
 						<ul>
@@ -136,6 +137,10 @@
 				</div>
 
 			</section>
+			<img class="preload" src="lib/img/portfolio/prophecy_lg.jpg" alt="">
+			<img class="preload" src="lib/img/portfolio/ksport_lg.jpg" alt="">
+			<img class="preload" src="lib/img/portfolio/gilbert-news-blog_lg.jpg" alt="">
+			<img class="preload" src="lib/img/portfolio/rattlers_lg.jpg" alt="">
 		</div> <!-- end main -->
 		</div><!-- end content -->
 <?php @include('templates/footer.php') ?>
